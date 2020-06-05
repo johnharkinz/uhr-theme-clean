@@ -1,0 +1,47 @@
+/*
+ Theme Name:   Uhr-Theme-Clean
+ Theme URI:    http://uhr.fyi
+ Description:  Twenty Nineteen Child Theme
+ Author:       John Harkins
+ Author URI:   http://example.com
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentynineteenchild
+*/
+
+body { 
+	font-family: "Avenir";
+	font-size: 0.8em; 
+	color: #424242;
+	line-height: 1.5em;
+	letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+	.site-header {
+		padding: 1rem 0;
+	}
+}
+
+.entry .entry-title::before {
+    display: none;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+.author-description .author-link, .comment-metadata, .comment-reply-link, .comments-title, .comment-author .fn, .discussion-meta-info, .entry-meta, .entry-footer, .main-navigation, .no-comments, .not-found .page-title, .error-404 .page-title, .post-navigation .post-title, .page-links, .page-description, .pagination .nav-links, .sticky-post, .site-title, .site-info, #cancel-comment-reply-link, h1, h2, h3, h4, h5, h6 {
+    font-family: "Avenir", sans-serif;
+}
+
+.site-info {
+	display: none;
+}
