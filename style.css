@@ -45,3 +45,11 @@ h2 {
 .site-info {
 	display: none;
 }
+
+.entry .entry-content .wp-block-separator.is-style-wide, .entry .entry-content hr.is-style-wide {
+    max-width: 100%;
+}
+
+.entry .entry-content > *, .entry .entry-summary > *, .entry .entry-summary > .wp-block-group > .wp-block-group__inner-container > *, .entry .entry-content > .wp-block-group > .wp-block-group__inner-container > * {
+    max-width: 100%;
+}
