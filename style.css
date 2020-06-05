@@ -1,5 +1,5 @@
 /*
- Theme Name:   Uhr-Theme-Clean
+ Theme Name:   
  Theme URI:    http://uhr.fyi
  Description:  Twenty Nineteen Child Theme
  Author:       John Harkins
@@ -15,7 +15,7 @@
 body { 
 	font-family: "Avenir";
 	font-size: 0.8em; 
-	color: red;
+	color: #424242;
 	line-height: 1.5em;
 	letter-spacing: -0.02em;
 }
