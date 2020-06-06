@@ -31,16 +31,32 @@ body {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 2.25em;
 }
 
 h2 {
-	font-size: 1.8em;
+	font-size: 1.7em;
 }
 
-.author-description .author-link, .comment-metadata, .comment-reply-link, .comments-title, .comment-author .fn, .discussion-meta-info, .entry-meta, .entry-footer, .main-navigation, .no-comments, .not-found .page-title, .error-404 .page-title, .post-navigation .post-title, .page-links, .page-description, .pagination .nav-links, .sticky-post, .site-title, .site-info, #cancel-comment-reply-link, h1, h2, h3, h4, h5, h6 {
+h3 {
+	font-size: 1.3em;
+}
+
+.author-description, 
+.author-link, 
+.comment-metadata, 
+.comment-reply-link, 
+.comments-title, 
+.comment-author, 
+.fn, 
+.discussion-meta-info, 
+.entry-meta, .entry-footer, .main-navigation, .no-comments, .not-found .page-title, 
+.error-404 .page-title, .post-navigation .post-title, .page-links, .page-description, 
+.pagination .nav-links, .sticky-post, .site-title, .site-info, #cancel-comment-reply-link,
+ h1, h2, h3, h4, h5, h6 {
     font-family: "Avenir", sans-serif;
 }
+
 
 .site-info {
 	display: none;
